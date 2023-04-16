@@ -1,0 +1,10 @@
+.homes .container{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 300px auto;
+    grid-template-rows: calc(100vh - 60px);
+}
+
+.homes-block{
+    overflow: scroll;
+}

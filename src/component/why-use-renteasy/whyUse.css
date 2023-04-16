@@ -1,0 +1,50 @@
+
+.why-use{
+    margin-top: 8rem;
+}
+.why-use .container{
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+@media screen and (min-width : 768px) {
+    .why-use .container{
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+}
+}
+@media screen and (min-width : 1024px) {
+    .why-use .container{
+        gap: 10rem;
+}
+
+}
+
+.why-use .img{
+    width: 200px;
+}
+
+@media screen and (min-width : 1280px) {
+    .why-use .img{
+        width: 250px;
+    }
+    
+}
+
+.why-use-heading{
+    text-align: center;
+    color: var(--secondary-color);
+    margin-bottom: 3rem;
+}
+
+ /* avoid broker is small in size in comparison to others so i m using scale to balance */
+
+
+ .avoid-broker{
+    transform: scale(1.4);
+ }
+

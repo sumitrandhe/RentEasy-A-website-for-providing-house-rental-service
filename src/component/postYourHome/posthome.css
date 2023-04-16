@@ -1,0 +1,15 @@
+
+.post-home-img {
+    height: 300px;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../../images/postHome.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.post-home-img h1{
+    color: #fff;
+}

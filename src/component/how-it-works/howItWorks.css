@@ -1,0 +1,25 @@
+/* container and grid are common classes so they are in global css */
+
+.how-it-works .grid {
+    align-items: center;
+}
+
+@media screen and (min-width : 1024px ) {
+    .reverse-order{
+        order : -1;
+    }
+    
+}
+
+
+
+.how-it-works{
+    margin-top: 8rem;
+}
+
+.how-work-heading{
+    text-align: center;
+    color: var(--secondary-color);
+    margin-bottom: 3rem;
+}
+

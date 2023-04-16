@@ -1,0 +1,60 @@
+@media (max-width: 767.98px) { .border-sm-start-none { border-left: none !important; } }
+
+
+/* homes*/
+
+.home-card {
+    background-color: #eee;
+    padding: 2rem 1rem;
+}
+
+.home-card article{
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #ddd;
+}
+
+.home-card article img:hover{
+    transform: scale(1.2);
+    transition: all .200s ease-out;
+}
+
+
+/* description */
+
+.deposite, .description, .buildup, .rent{
+    font-size: 1.6rem;
+    color: #666;
+}
+
+.deposite, .buildup, .rent{
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+.deposite, .buildup, .rent{
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.deposite .media, 
+.buildup .media, 
+.rent .media{
+    gap: .4rem;
+}
+
+.deposite-heading, 
+.buildup-heading, 
+.rent-heading{
+    font-size: 2rem;
+    color: #333;
+}
+
+.description{
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+    
+}
+
+
